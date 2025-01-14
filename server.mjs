@@ -12,7 +12,7 @@ app.use(cors({origin:['http://localhost:5173','https://todo-app-omais.surge.sh/'
 
 app.get('/api/v1/todos', (request, response) => {
     const message = !todos.length ? "todos empty" : "ye lo sab todos";
-  response.send({ data: todos, message: message });
+  response.send({ data: todos, message: message } || 'Hello World');
 })
 
 
