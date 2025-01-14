@@ -1,0 +1,1 @@
+const mongodbUri ="mongodb+srv://okmais:geoo123@cluster0.vr9yt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
