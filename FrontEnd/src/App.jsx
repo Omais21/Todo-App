@@ -4,7 +4,7 @@ import toast from 'react-hot-toast'
 
 function App() {
 
-  const BASE_URL = 'http://localhost:5001'
+  const BASE_URL = 'https://todo-app-chfm.vercel.app/'
    const [todos, setTodos] = useState([])
   
   const getTodo = async () =>{
