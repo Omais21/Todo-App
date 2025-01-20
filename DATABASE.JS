@@ -1,13 +1,13 @@
 import mongoose from "mongoose";
 
-const mongod_Uri = process.env.MONGO_URI;
+const mongodb_Uri = process.env.MONGO_URI;
 
 
 console.log("Omais");
 
 const connectDB = async () => {
     try {
-        const connectionInstance = await mongoose.connect(mongod_Uri, {
+        const connectionInstance = await mongoose.connect(mongodb_Uri, {
             dbName: "my-todo-db",
         });
 
