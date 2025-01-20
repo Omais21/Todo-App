@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const mongod_Uri = "mongodb+srv://okmais:geoo123@cluster0.vr9yt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+const mongod_Uri = process.env.MONGO_URI;
 
 
 console.log("Omais");
